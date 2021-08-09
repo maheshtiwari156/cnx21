@@ -31,13 +31,13 @@
     };
 
     var yammerConfig = {
-        yammerUrl: "https://api.yammer.com/api/v1/"
+        yammerUrl: "https://www.yammer.com/api/v1/"
     };
 
     // create a request object for login or token request calls
     // In scenarios with incremental consent, the request object can be further customized
     var requestObj = {
-        scopes: ["https://api.yammer.com/user_impersonation"]
+        scopes: ["https://www.yammer.com/user_impersonation"]
     };
 
     var myMSALObj = new Msal.UserAgentApplication(msalConfig);
